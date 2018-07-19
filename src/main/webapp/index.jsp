@@ -8,6 +8,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Welcome to Louisville Shopping Outlet!</h1>
+        <h1> Mens Clothing</h1>
+        <h1> Mens Apparel</h1>
+        <h1> Women Apparel</h1>
+        <h1> Women Clothing</h1>
     </body>
 </html>
