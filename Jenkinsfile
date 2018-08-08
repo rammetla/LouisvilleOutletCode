@@ -11,6 +11,17 @@ pipeline
        }
     
     }
+      stage('Clean')
+      {
+      
+        steps
+         {
+         
+         bat 'mvn clean'
+         }
+      
+      }
+      
    }
    
 }
