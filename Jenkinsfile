@@ -16,7 +16,7 @@ pipeline
       
         steps
          {
-         start 'C:/Users/PRIYA/Desktop/SeleniumSpace/myFirstApp'
+         dir 'C:/Users/PRIYA/Desktop/SeleniumSpace/myFirstApp'
          bat 'mvn clean'
          }
       
