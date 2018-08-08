@@ -1,7 +1,7 @@
 pipeline
 {
    agent any
-   
+   stages{
     stage('Sample')
     {
        steps
@@ -11,11 +11,6 @@ pipeline
        }
     
     }
+   }
    
-   
-   
-   
-
-
-
 }
