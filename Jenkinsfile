@@ -2,7 +2,7 @@ pipeline
 {
    agent any
    stages{
-    stage('Sample')
+    stage('Version Check')
     {
        steps
        {
@@ -11,14 +11,15 @@ pipeline
        }
     
     }
-      stage('Clean')
+      stage('Build')
       {
       
         steps
          {
             dir ('C:/Users/PRIYA/Desktop/SeleniumSpace/myFirstApp')
             {
-                bat 'mvn clean'
+                bat 'mvn clean install'
+               
             }
          
          }
