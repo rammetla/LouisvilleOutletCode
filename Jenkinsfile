@@ -26,6 +26,21 @@ pipeline
       
       }
       
+      stage ('Test')
+      {
+      
+         steps
+         {
+            dir ('C:/Users/PRIYA/Desktop/SeleniumSpace/MyWebAppTest')
+            {
+             bat 'RunSeleniumTest'
+            }
+         
+         
+         }
+      
+      }
+      
    }
    
 }
