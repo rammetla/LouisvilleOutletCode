@@ -25,6 +25,20 @@ pipeline
          }
       
       }
+     
+      
+      stage ('Deploy')
+      {
+      
+         steps
+         {
+         
+         build job: 'Continuous Deployment -  Build Deployment'
+
+         
+         }
+      
+      }
       
       stage ('Test')
       {
