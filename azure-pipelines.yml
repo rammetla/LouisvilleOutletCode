@@ -23,5 +23,11 @@ steps:
 
 - task: CopyFiles@1
   displayName: "Copying CopyFiles"
+  inputs:
+    SourceFolder: '$(build.SourceFolder)'
+    TargetFolder: '(build.artifactsStagingdirectory)'
+  condition: succeededOrFailed()
+
+  
   
     
