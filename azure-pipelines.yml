@@ -11,6 +11,7 @@ pool:
 
 steps:
 - task: Maven@3
+  displayName: "Building the War"
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
@@ -21,12 +22,7 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'clean package'
 
-- task: CopyFiles@1
-  displayName: "Copying CopyFiles"
-  inputs:
-    SourceFolder: '$(build.SourceFolder)'
-    TargetFolder: '(build.artifactsStagingdirectory)'
-  condition: succeededOrFailed()
+
 
   
   
