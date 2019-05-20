@@ -18,8 +18,7 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'clean package'
 
-- task: Maven@1
-  displayName: "War Built Successfully"
+
 
 #Deployment
 - task: PublishBuildArtifacts@1
