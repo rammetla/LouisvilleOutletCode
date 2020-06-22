@@ -13,6 +13,6 @@
         <h1> - Mens Apparel</h1>
         <h1> - Women Apparel</h1>
         <h1> - Women Clothing</h1>
-  	<h1>Sale !! 80% on entire store. Coming this weekend</h1>
+  	<h1>Sale !! 70% on entire store. Coming this weekend</h1>
        </body>
 </html>
